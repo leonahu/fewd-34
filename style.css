@@ -6,7 +6,7 @@
 /* Title and subtitle */
 .center_header {
 
-  font-family: 'Inconsolata', ;
+  font-family: 'Inconsolata', serif !important;;
   color: #4A4A4A;
   width: 100%;
 	font-size: 1.2em;
