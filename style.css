@@ -1,9 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
-font-family: 'Inconsolata', ;
+@font-face {
+	font-family: 'Inconsolata';
+   }
 
 
   h1 {
     font-family: ‘Inconsolata’, Arial, serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 32px;
+    color: #4A4A4A;
+  }
+
+  p {
+    font-family: ‘Inconsolata’, Arial, serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  a {
+    font-family: ‘Inconsolata’, Arial, serif;
+    font-weight: 400;
+    font-size: 18px;
   }
