@@ -6,7 +6,7 @@
 /* Title and subtitle */
 .center_header {
 
-  font-family: 'Inconsolata', serif !important;;
+  font-family: 'Inconsolata', serif !important;
   color: #4A4A4A;
   width: 100%;
 	font-size: 1.2em;
@@ -40,7 +40,7 @@
 
 /* Homework links with a little fancy animation */
   a {
-  font-family: 'Inconsolata', ;
+  font-family: 'Inconsolata',serif !important;
   font-weight: 700;
   color: #4A4A4A;
   text-decoration: none;
@@ -79,7 +79,7 @@
 
 /* Typography */
 p {
-  font-family: 'Inconsolata', ;
+  font-family: 'Inconsolata',serif !important;
   font-weight: 400;
   color: #4A4A4A;
   font-size: 1.0em;
@@ -87,13 +87,13 @@ p {
 
 }
   h1 {
-    font-family: 'Inconsolata', ;
+    font-family: 'Inconsolata', serif !important;
     font-weight: 400;
     color: #4A4A4A;
   }
 
   h2 {
-    font-family: 'Inconsolata', ;
+    font-family: 'Inconsolata', serif !important;
     font-weight: 400;
     font-size: 0.9em;
     color: #949494;
@@ -102,7 +102,7 @@ p {
 
 
   #link {
-    font-family: ‘Inconsolata’, ;
+    font-family: ‘Inconsolata’, serif !important;
     font-weight: 400;
     font-size: 0.9em;
   }
