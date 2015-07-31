@@ -1,9 +1,10 @@
 
   header{
     overflow:auto;
+    margin:auto;
     background-color:#C4C4C4;
     height:10%;
-    width:inherit;
+    width:100%;
     border-color: #33333;
     border: solid #6b6b6b 1px;
     box-shadow: inset 0px -1px 18px 10px rgba(0,0,0,0.05);
