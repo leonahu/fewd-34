@@ -23,7 +23,7 @@
 
     list-style: none;
     text-decoration: none;
-
+    
   }
 
   li {
@@ -48,10 +48,11 @@
         font-family: Arial;
         color: #ffffff;
         font-size: 1em;
-        background: #098ee6;
+        background: #2755B0;
         padding: 10px 20px 10px 20px;
         border: solid #6b6b6b 1px;
         text-decoration: none;
+
   }
 
   body {
