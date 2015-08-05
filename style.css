@@ -4,6 +4,8 @@
    }
 
 /* Title and subtitle */
+
+
 .center_header {
 
   font-family: 'Inconsolata', serif !important;
@@ -46,15 +48,16 @@
   margin: auto;
 	bottom: 0;
 	left:50%;
-	margin-left: -80px;
+	margin-left: -100px;
 
 
 
 }
 
 img{
-	width:300px;
+	max-width:300px;
 	height:auto;
+	margin:auto;
 }
 
 
