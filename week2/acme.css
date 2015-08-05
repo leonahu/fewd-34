@@ -23,7 +23,7 @@
 
     list-style: none;
     text-decoration: none;
-    
+
   }
 
   li {
@@ -74,7 +74,7 @@
     box-shadow: -webkit-box-shadow: 1px -1px 10px 3px rgba(0,0,0,0.20);
     -moz-box-shadow: 1px -1px 10px 3px rgba(0,0,0,0.20);
     box-shadow: 1px -1px 10px 3px rgba(0,0,0,0.20);
-
+    max-width: 650px;
   }
 
   hr{
