@@ -25,6 +25,7 @@
   margin: auto;
   border: 3px solid #4A4A4A;
 
+
 }
 
 
@@ -36,10 +37,30 @@
   line-height: 2.0;
   padding-top: 2.0em;
 
+	}
+
+/* Profile image */
+
+.profile-img{
+	position: fixed;
+  margin: auto;
+	bottom: 0;
+	left:50%;
+	margin-left: -80px;
+
+
+
 }
 
+img{
+	width:300px;
+	height:auto;
+}
+
+
 /* Homework links with a little fancy animation */
-  a {
+
+	a {
   font-family: 'Inconsolata',serif !important;
   font-weight: 700;
   color: #4A4A4A;
