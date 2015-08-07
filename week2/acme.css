@@ -80,6 +80,7 @@
 
   hr{
     width:65%;
+      max-width: 650px;
     margin-top: 2.3em;
     height:1px;
     color: #AEACAB;
