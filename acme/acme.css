@@ -33,7 +33,7 @@
     display: inline;
     font-family: "Lucida Sans", sans-serif;
     margin-right: 1.2em;
-    overflow: auto;
+  
 
   }
 
@@ -178,8 +178,6 @@
         font: 1.2em;
         margin: 0;
       }
-
-
 
 
       .userinfo {
