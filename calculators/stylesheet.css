@@ -9,6 +9,7 @@
       max-width: 1200px;
       margin: 0 auto;
       text-align: center;
+      margin-top: 200px;
 
     }
 
@@ -16,6 +17,7 @@
 
       font-family: 'Source Code Pro', ;
       font-weight: 400;
+      color:#4A4A4A;
       line-height: 30px;
       height: 100%;
       width: 100%;
@@ -31,17 +33,30 @@
     h2{
       font-size: 1.5em;
       font-weight: 400;
+      padding-bottom: 20px;
     }
 
     input {
-      font-size: inherit;
-      line-height: inherit;
-      padding: 5px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
+      padding: 10px;
+      border: solid 3px #c9c9c9;
+      transition: border 0.3s;
+      font-size: 1em;
+      font-weight: 400;
+
+
     }
+
+
+    input:focus,
+    input:focus{
+       border: solid 5px #4A4A4A;
+       outline: 0;
+    }
+
     input[disabled] {
       border: 0;
+      border: solid 3px #c9c9c9;
+
     }
 
 
@@ -54,10 +69,20 @@
       z-index: 1;
       cursor: pointer;
       position: relative;
-      border-radius: 3px;
+      border: 5px solid #4A4A4A;
       height:350px;
 
     }
+
+
+
+    .column:hover {
+      z-index: 3;
+      background: #99FFCC;
+      border: 5px solid #4A4A4A;
+      box-shadow: 6px 6px 0px 0px #4A4A4A;
+    }
+​
 
     .py {
       background-image: url('http://cloud.avandamiri.com/image/0l0a39261I29/triangle.png');
@@ -109,13 +134,13 @@
       position: absolute;
       top: 105px;
       left: 100px;
-      width: 140px;
+      width: 150px;
     }
     .temp-f,
     .temp-c {
-    width: 80px;
+    width: 120px;
     }
     .temp {
-      padding-left: 10px;
+      padding-left: 0px;
       display:inline;
     }
