@@ -92,31 +92,41 @@
 ​
 
     .py {
-      background-image: url('http://cloud.avandamiri.com/image/0l0a39261I29/triangle.png');
-      background-size: 400px 260px;
-      background-repeat: no-repeat;
-      background-position: top center;
+
       height: 300px;
       width: 600px;
       position: relative;
     }
+
     .py input {
       width: 50px;
     }
+
+    .triangle{
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 100px 0 0 200px;
+      border-color: transparent transparent transparent #d9d9d9;
+      margin-left: 80px;
+      margin-top: 60px;
+
+
+    }
     .py-a {
       position: absolute;
-      top: 100px;
-      left: 10px;
+      top: 150px;
+      left: 30px;
     }
     .py-b {
       position: absolute;
-      top: 220px;
-      left: 120px;
+      top: 240px;
+      left: 150px;
     }
     .py-c {
       position: absolute;
       left: 160px;
-      top: 80px;
+      top: 100px;
     }
     .circum {
       position: relative;
@@ -128,19 +138,19 @@
       border-radius: 50%;
       border: 5px solid #4A4A4A;
       position: absolute;
-      left: 0px;
+      left: 20px;
       top:20px;
     }
     .circum-r {
       position: absolute;
       top: 105px;
-      left: 15px;
+      left: 35px;
       width: 80px;
     }
     .circum-c {
       position: absolute;
       top: 105px;
-      left: 100px;
+      left: 120px;
       width: 150px;
     }
     .temp-f,
