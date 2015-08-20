@@ -15,7 +15,7 @@
 
     body {
 
-      font-family: 'Source Code Pro', ;
+      font-family: 'Source Code Pro', serif !important;;
       font-weight: 400;
       color:#4A4A4A;
       line-height: 30px;
