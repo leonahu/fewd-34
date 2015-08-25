@@ -40,8 +40,6 @@
     }
 
 
-
-
     var tempF = document.querySelector('.temp-f');
     var tempC = document.querySelector('.temp-c');
 
