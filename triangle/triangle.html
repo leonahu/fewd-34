@@ -43,8 +43,9 @@
       <div class="content">
           <h2>Triangle with color infill</h2>
           <div class="tri-frame">
-        <div class="triangle-2-inside"></div>
-        <div class="triangle-2-outside"></div>
+        <div class="triangle-2-outside">
+        <div class="triangle-2-inside"></div></div>
+
         </div>
       </div>
 
@@ -53,10 +54,20 @@
           CSS code
         </p>
         <pre>
-          width: 0; height: 0;
-          border-bottom: 120px solid #99FF66;
-          border-left: 70px solid transparent;
-          border-right: 70px solid transparent;
+          .triangle-2-outside {
+
+            width: 0; height: 0;
+            border-bottom: 120px solid #99FF66;
+            border-left: 70px solid transparent;
+            border-right: 70px solid transparent;
+          }
+
+          .triangle-2-inside {
+            width: 0; height: 0;
+            border-bottom: 115px solid #333333;
+            border-left: 70px solid transparent;
+            border-right: 70px solid transparent;
+          }
         </pre>
       </div>
 
