@@ -14,6 +14,11 @@
       padding-left: 5%;
     }
 
+    h2{
+      font-size: 1.3em;
+      font-weight: normal;
+      color: #333333;
+    }
     h3 {
 
       font-weight: lighter;
@@ -21,6 +26,14 @@
       padding-bottom: 5%;
     }
 
+    p{
+      padding: 1% 5% 1% 5%;
+    }
+
+    pre{
+      width: auto;
+      padding: 1% 5% 1% 5%;
+    }
     header {
       text-align: center;
       color: #666666;
@@ -30,20 +43,24 @@
     .container {
 
     height: auto;
-    border-bottom: 1px solid #CCCCCC;
     border-top: 1px solid #CCCCCC;
     position: relative;
-    overflow: auto;
+    overflow: hidden;
 
     }
 
+
+
     .content {
       float:left;
-      margin-top: 5%;
+      margin-top: 2%;
       margin-left: 10%;
       text-align: left;
 
       }
+
+
+
 
     .code {
       width: 50%;
@@ -54,10 +71,32 @@
 
     }
 
+
+
+    .tri-frame{
+      margin: 10% 10% 10% 10%;
+    }
+
     .triangle-1 {
       width: 0; height: 0;
       border-bottom: 120px solid #99FF66;
       border-left: 70px solid transparent;
-      border-right: 70px solid transparent; }
+      border-right: 70px solid transparent;
+    }
 
+
+
+    .triangle-2-outside {
+
+      width: 0; height: 0;
+      border-bottom: 120px solid #99FF66;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+    }
+
+    .triangle-2-inside {
+      width: 0; height: 0;
+      border-bottom: 115px solid #333333;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
     }
