@@ -3,7 +3,7 @@
 
 
     body{
-      font-family: 'Lato', sans-serif, !important;
+      font-family: 'Lato', serif !important;;
       margin: auto;
     }
 
@@ -77,6 +77,10 @@
       margin: 10% 10% 10% 10%;
     }
 
+    .tri-frame.tri2 {
+      margin: 30% 10% 10% 10%;
+    }
+
     .triangle-1 {
       width: 0; height: 0;
       border-bottom: 120px solid #99FF66;
@@ -86,7 +90,9 @@
 
 
 
+
     .triangle-2-outside {
+
       position:relative;
       width: 0; height: 0;
       border-bottom: 120px solid #99FF66;
