@@ -87,7 +87,7 @@
 
 
     .triangle-2-outside {
-
+      position:relative;
       width: 0; height: 0;
       border-bottom: 120px solid #99FF66;
       border-left: 70px solid transparent;
