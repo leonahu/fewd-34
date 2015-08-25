@@ -96,10 +96,10 @@
 
     .triangle-2-inside {
       position: absolute;
-      top:3px;
-      left:-65px;
+      top:6px;
+      left:-63px;
       width: 0; height: 0;
-      border-bottom: 115px solid #ffffff;
-      border-left: 65px solid transparent;
-      border-right: 65px solid transparent;
+      border-bottom: 110px solid #ffffff;
+      border-left: 63px solid transparent;
+      border-right: 63px solid transparent;
     }
