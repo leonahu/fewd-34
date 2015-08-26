@@ -140,6 +140,7 @@
        left: 10%;
        clip: rect(auto, 200px, auto, 100px);
        transform: rotate(-90deg);
+       -webkit-transform: rotate(-90deg);
      }
 
      .triangle-3::after {
@@ -151,4 +152,5 @@
        right: 20px;
        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #99FF66));
        transform: rotate(-45deg);
+       -webkit-transform: rotate(-45deg);
      }
