@@ -11,21 +11,24 @@
   </head>
   <body>
     <header>
+      <div class="title">
+
       <h1>So You Want CSSome Triangles</h1>
+      </div>
       <h3>And I really want a new book</h3>
     </header>
 
     <section class="container">
 
       <div class="content">
-          <h2>Triangle with color infill</h2>
+          <h2>One color infill</h2>
           <div class="tri-frame">
         <div class="triangle-1"></div>
         </div>
       </div>
 
       <div class="code">
-      
+
         <pre class="">
           width: 0; height: 0;
           border-bottom: 120px solid #99FF66;
@@ -39,7 +42,7 @@
     <section class="container">
 
       <div class="content">
-          <h2>Triangle with color infill</h2>
+          <h2>Border only</h2>
           <div class="tri-frame tri2">
         <div class="triangle-2-outside">
         <div class="triangle-2-inside"></div></div>
@@ -51,6 +54,7 @@
         <pre>
           .triangle-2-outside {
 
+            position:relative;
             width: 0; height: 0;
             border-bottom: 120px solid #99FF66;
             border-left: 70px solid transparent;
@@ -58,10 +62,13 @@
           }
 
           .triangle-2-inside {
+            position: absolute;
+            top:6px;
+            left:-63px;
             width: 0; height: 0;
-            border-bottom: 115px solid #333333;
-            border-left: 70px solid transparent;
-            border-right: 70px solid transparent;
+            border-bottom: 110px solid #ffffff;
+            border-left: 63px solid transparent;
+            border-right: 63px solid transparent;
           }
         </pre>
       </div>
@@ -71,7 +78,7 @@
      <section class="container">
 
        <div class="content">
-           <h2>Triangle with color infill</h2>
+           <h2>Gradient infill</h2>
            <div class="tri-frame">
          <div class="triangle-3"></div>
 
@@ -79,19 +86,41 @@
        </div>
 
        <div class="code">
-         <p>
-           CSS code
-         </p>
          <pre>
-           width: 0; height: 0;
-           border-bottom: 120px solid #99FF66;
-           border-left: 70px solid transparent;
-           border-right: 70px solid transparent;
+           .triangle-3 {
+             width: 160px;
+              height: 200px;
+              position: absolute;
+              top: 50%;
+              left: 10%;
+              clip: rect(auto, 200px, auto, 100px);
+              transform: rotate(-90deg);
+            }
+
+            .triangle-3::after {
+              content: "";
+              position: absolute;
+              top: 20px;
+              bottom: 10px;
+              left: 20px;
+              right: 20px;
+              background: -webkit-gradient
+              (linear, left top, left bottom,
+              color-stop(0%, #ffffff),
+              color-stop(100%, #99FF66));
+              transform: rotate(-45deg);
+            }
          </pre>
        </div>
 
       </section>
 
+      <section class="container">
+
+        <p class="last">
+          Made with enthusiasm and frustration by <a href="https://twitter.com/HuIsLeona">Leona Hu</a>
+        </p>
+      </section>
 
   </body>
 

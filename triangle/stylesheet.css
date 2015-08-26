@@ -22,8 +22,9 @@
     h3 {
 
       font-weight: lighter;
-      font-size: 1em;
+      font-size: 1.2em;
       padding-bottom: 5%;
+      color: #333333;
     }
 
     p{
@@ -34,10 +35,30 @@
       width: auto;
       padding: 1% 5% 1% 5%;
     }
+
     header {
       text-align: center;
-      color: #666666;
       font-weight: 300;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: bolder;
+      color: #666666;
+    }
+    .last {
+      text-align: center;
+    }
+
+    .title{
+      width: 50%;
+      height: auto;
+      border: 5px solid #CCCCCC;
+      margin: auto;
+      margin-top: 5%;
+      color: #666666;
+      text-align: center;
+
     }
 
     .container {
@@ -67,14 +88,15 @@
       float:right;
       margin: 5% 5% 5% 10%;
       text-align: left;
-      border: 1px solid #CCCCCC;
+      background-color: #CCCCCC;
 
     }
 
 
 
     .tri-frame{
-      margin: 10% 10% 10% 10%;
+      margin: 20% 10% 10% 10%;
+      margin-bottom: 30%;
     }
 
     .tri-frame.tri2 {
@@ -109,3 +131,24 @@
       border-left: 63px solid transparent;
       border-right: 63px solid transparent;
     }
+
+    .triangle-3 {
+      width: 160px;
+       height: 200px;
+       position: absolute;
+       top: 50%;
+       left: 10%;
+       clip: rect(auto, 200px, auto, 100px);
+       transform: rotate(-90deg);
+     }
+
+     .triangle-3::after {
+       content: "";
+       position: absolute;
+       top: 20px;
+       bottom: 10px;
+       left: 20px;
+       right: 20px;
+       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #99FF66));
+       transform: rotate(-45deg);
+     }
