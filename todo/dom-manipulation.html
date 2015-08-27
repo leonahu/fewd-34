@@ -64,10 +64,11 @@ body { font-family: sans-serif; }
   <script>
   function addImage() {
 
-          var frame = document.querySelector('#image');
-          var image = document.createElement('img');
-          frame.appendChild('img');
-          img.setAttribute("src", "http://images.express.co.uk/img/dynamic/78/590x/secondary/16711.jpg")
+          var frame = document.getElementById('image');
+          var image = document.createElement("img");
+          image.setAttribute("src", "http://images.express.co.uk/img/dynamic/78/590x/secondary/16711.jpg");
+          frame.innerHTML = image.outerHTML;
+
   }
 
 
@@ -75,47 +76,7 @@ body { font-family: sans-serif; }
 
   </div>
 
-<!--In Class Receip 1-->
-  <script>
-    // JS receipes
-    // Adding / changing an element's value
 
-    var el = document.querySelector("img");
-    el.setAttribute("src", "http://example.com/logo.png");
-
-    //If the element is NOT on the page (new el);
-    var el = document.createElement('img');
-    el.setAttribute("src", "http://example.com/logo.png")
-
-    //Adding / changing an element's textContent
-    var el = document.querySelector("p");
-    el.textContent = "The quick little fox";
-
-    //If the element is not on the page ( new el)
-    var el = document.createElement("p");
-    el.textContent = "The quick little fox";
-    </script>
-
-
-
-<!--In Class Receip 2 Adding an EL to the page w/text-->
-    <script>
-    function addElement (name, parent, text){
-    var el = document.createElement(name);
-    el.textContent = text;
-    var parentEl = document.querySelector(parent);
-    parentEl.appendChild(el);
-    }
-
-    addElement("li", "ul", "Go Grocery shopping");
-    </script>
-
-<!--In Class Receip 3 Adding img-->
-<script>
-  document.createElement("img")
-  var image = document.createElement=("img")
-  image.setAttribute("src","http://images.express.co.uk/img/dynamic/78/590x/secondary/16711.jpg")
-  
 
 
 </script>
@@ -134,7 +95,12 @@ body { font-family: sans-serif; }
 
   <script>
   function makeBold() {
-    // Your code goes here.
+
+     var mkBold = document.querySelector("#make-me-bold");
+
+     mkBold.classList.toggle("bold");
+
+     
   }
 
 
