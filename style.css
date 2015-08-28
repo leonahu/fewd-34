@@ -52,6 +52,7 @@
 
 
 
+
 }
 
 img{
@@ -133,11 +134,14 @@ p {
   }
 
   #profile {
-    margin-left: 5%;
+
+		margin-left: 5%;
     margin-right: 5%;
   }
 
   #menu {
     list-style: none;
     display: inline;
+		text-align: left;
+
   }
