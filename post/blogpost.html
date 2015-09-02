@@ -121,7 +121,7 @@
 
       var inputComment = document.querySelector("textarea");
       var commentBtn = document.querySelector("button");
-      var listComment = document.querySelector(".comments")
+      var listComment = document.querySelector("#comments")
 
       commentBtn.addEventListener('click', addListItem);
 
@@ -129,8 +129,8 @@
         event.preventDefault();
         var commentText = document.createElement("div");
         commentText.textContent = inputComment.value;
+        listComment.appendChild(commentText);
 
-        commentText.appendChild(listComment);
 
 
         }
