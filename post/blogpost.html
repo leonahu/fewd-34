@@ -58,14 +58,32 @@
         font-size: inherit;
       }
       button {
-        border: 1px solid rgba(0, 0, 0, 0.2);
+        border: 3px solid #fff;
         border-bottom-width: 2px;
-        border-radius: 5px; font-size: inherit;
+        outline:none;
+        font-size: 20px;
         color: white;
         background-color: #049cd8;
         padding: .5em 1em;
         cursor: pointer;
+
       }
+
+      button:after {
+      	width: 0%;
+      	height: 100%;
+      	top: 0;
+      	left: 0;
+      	background-color: #ffffff;
+      }
+
+      button:hover,
+      button:active {
+      	color: #0e83cd;
+        background-color: #ffffff;
+        border: 3px solid #fff;
+      }
+
     </style>
   </head>
   <body>
@@ -112,15 +130,18 @@
 
     <script>
       // like button
-      var likeBtn = document.querySelector(".like-link");
+      var likeBtn = document.querySelector("button");
       var likeCount = document.querySelector(".like-count");
+      console.log(likeCount);
 
       likeBtn.addEventListener("click", likeAction);
 
       function likeAction(event) {
         event.preventDefault();
-        likeCount.textContent = Number(likeCount.value) + 1;
+        likeCount.textContent = parseInt(likeCount.value) + 1;
       }
+
+
 
       // comment
 
