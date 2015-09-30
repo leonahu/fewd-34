@@ -24,7 +24,7 @@ h1 {
 
 
 h2 {
-  font-size:     1.2em;
+  font-size:     1em;
   line-height:   1;
   color: #ffffff;
   font-weight:   400;
@@ -88,7 +88,7 @@ section{
 
 .section--5 {
   background-color: #666666;
-  height:600px;
+  height:280px;
 }
 
 
@@ -182,4 +182,8 @@ section{
 
 #section2-arch-number{
     margin-top: 18%;
+}
+
+#text-wrap {
+
 }
