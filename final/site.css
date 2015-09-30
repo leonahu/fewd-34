@@ -1,0 +1,185 @@
+
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700italic,700,400italic);
+
+body {
+  margin:0 auto;
+  background-color: #676767;
+  font-family: 'Karla', sans-serif;
+  color: #ffffff;
+}
+
+header {
+  text-align: center;
+
+}
+
+h1 {
+  font-size:     1.5em;
+  line-height:   1.5;
+  color: #ffffff;
+  font-weight:   400;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+h2 {
+  font-size:     1.2em;
+  line-height:   1;
+  color: #ffffff;
+  font-weight:   400;
+}
+
+
+h3 {
+
+  font-size:     1.5em;
+  line-height:   1.5;
+  color: #ffffff;
+  font-weight:   400;
+
+}
+
+p {
+  font-weight:   400;
+  font-size:     1em;
+
+
+}
+
+strong{
+  font-weight:   700;
+  font-size:     1.5em;
+  line-height:   1;
+  color:#FF6600;
+}
+
+
+section{
+  height: 500px;
+
+}
+
+
+
+.section--1 {
+  background-color: #676767;
+}
+
+
+
+.section--2 {
+  background-color: #666666;
+  height:800px;
+}
+
+.section--3 {
+  background-color: #666666;
+  height: 200px;
+
+}
+
+.section--4 {
+  background-color: #666666;
+  height: 200px;
+  margin-top: 65%;
+
+}
+
+.section--5 {
+  background-color: #666666;
+  height:600px;
+}
+
+
+.section--green {
+  background-color: #2ecc71;
+}
+
+.column {
+  text-align: center;
+  width:50%;
+}
+
+.arch-column {
+
+  float:left;
+}
+
+.ux-column {
+
+  float:right;
+}
+
+.title-education {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  word-wrap: break-word;
+
+
+}
+
+.annotation {
+
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.number {
+
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 3em;
+  color:#FF6600;
+
+}
+
+
+
+#section1-title{
+  margin:auto;
+  padding-bottom: 5%;
+
+}
+
+#section1-arch-title{
+  margin:auto;
+  padding-top: 2%;
+  padding-bottom: 5%;
+
+}
+
+
+
+#section1-ux-title{
+  margin:auto;
+  padding-top: 13%;
+  padding-bottom: 5%;
+
+}
+
+
+
+
+#arch-edu {
+  margin-top: 10%;
+
+}
+
+#ux-edu {
+  margin-top: 10%;
+
+}
+
+#ux-strong {
+  color:#CCFFCC;
+}
+
+#section2-arch-number{
+    margin-top: 18%;
+}
