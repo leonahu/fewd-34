@@ -70,17 +70,11 @@ section{
  */
 
 .architect {
-   display: block;
-   position: fixed;
-   top: 80px;
-   left: 150px;
+
  }
 
-.ux-designer {
-   display: block;
-   position: fixed;
-   top: 80px;
-   left: 150px;
+.architect_end {
+
  }
 
 .nav {
