@@ -1,33 +1,36 @@
 
-@import url(https://fonts.googleapis.com/css?family=Karla:400,700italic,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100italic,300,300italic,100,400italic,700,700italic,900,900italic);
 
 body {
-  margin:0 auto;
-  background-color: #CCCCCC;
-  font-family: 'Karla', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: #CCCCCC;
+  font-family: 'Lato', sans-serif;
   color: #ffffff;
 }
 
 header {
-  text-align: center;
+  background-color: #CCCCCC;
+  margin: 0px;
+  padding: 0px;
 
 }
 
 h1 {
-  font-size:     1.5em;
+  font-size:     2;
   line-height:   1.5;
   color: #ffffff;
-  font-weight:   400;
+  font-weight:   300;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
 
 h2 {
-  font-size:     1em;
+  font-size:     1.2em;
   line-height:   1;
   color: #ffffff;
-  font-weight:   400;
+  font-weight:   300;
 }
 
 
@@ -49,46 +52,61 @@ p {
 
 strong{
   font-weight:   700;
-  font-size:     1.5em;
+  font-size:     1.8em;
   line-height:   1;
   color:#FF6600;
 }
 
 
 section{
-  height: 500px;
+  background-color: #CCCCCC;
 
+}
+
+
+.nav {
+  margin: 0 auto;
+  text-align: center;
 }
 
 
 
 .section--1 {
   background-color: #CCCCCC;
+  height: 400px;
+
 }
 
 
 
 .section--2 {
-  background-color: #666666;
+  background-color: #CCCCCC;
   height:800px;
 }
 
 .section--3 {
-  background-color: #666666;
+  background-color: #CCCCCC;
   height: 200px;
+
 
 }
 
 .section--4 {
-  background-color: #666666;
+  background-color: #CCCCCC;
   height: 200px;
   margin-top: 65%;
 
 }
 
 .section--5 {
-  background-color: #666666;
+  background-color: #CCCCCC;
   height:280px;
+}
+
+.section--6 {
+  background-color: #CCCCCC;
+  height:300px;
+  margin-top: 280px;
 }
 
 
@@ -99,9 +117,11 @@ section{
 .column {
   text-align: center;
   width:50%;
+
 }
 
 .arch-column {
+
 
   float:left;
 }
@@ -113,9 +133,8 @@ section{
 
 .title-education {
   text-align: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  word-wrap: break-word;
+  background-color: #CCCCCC;
+
 
 
 }
@@ -125,7 +144,7 @@ section{
   width: 70%;
   margin-left: 15%;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .number {
@@ -133,7 +152,6 @@ section{
   width: 70%;
   margin-left: 15%;
   text-align: center;
-  margin-top: 30px;
   font-size: 3em;
   color:#FF6600;
 
@@ -180,7 +198,7 @@ section{
 }
 
 #section2-arch-number{
-    margin-top: 18%;
+
 }
 
 #text-wrap {

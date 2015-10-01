@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1905px" height="160px" viewBox="0 0 1905 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 49 + Rectangle 49 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="background" sketch:type="MSArtboardGroup" transform="translate(-63.000000, -227.000000)">
+            <g id="Rectangle-49-+-Rectangle-49-Copy" sketch:type="MSLayerGroup" transform="translate(63.000000, 227.000000)">
+                <g id="Rectangle-49-+-Rectangle-49-Copy-2" sketch:type="MSShapeGroup">
+                    <path d="M1905,22.683445 L1905,35.0730136 C1904.99966,35.0731307 1499.18123,175.102435 1159.42627,85.939552 C819.671168,-3.22336797 666.479587,156.591012 442.756768,149.2314 C246.616703,142.779153 0,35.0730136 0,35.0730136 L0,22.683445 L0,45.0730136 C0,45.0730136 246.616703,152.779153 442.756768,159.2314 C666.479587,166.591012 819.671168,6.77663203 1159.42627,95.939552 C1499.18137,185.102472 1905,45.0730136 1905,45.0730136 L1905,35.0730136 Z" id="Rectangle-49" fill="#00CCFF"></path>
+                    <path d="M0,0.293876371 L1905,0.293876371 L1905,35.0730136 C1905,35.0730136 1499.18137,175.102472 1159.42627,85.939552 C819.671168,-3.22336797 666.479587,156.591012 442.756768,149.2314 C246.616703,142.779153 0,35.0730136 0,35.0730136 L0,0.293876371 Z" id="Rectangle-49-Copy-2" fill="#3399FF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
