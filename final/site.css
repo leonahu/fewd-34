@@ -4,13 +4,13 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: #CCCCCC;
+  background: #666699;
   font-family: 'Lato', sans-serif;
   color: #ffffff;
 }
 
 header {
-  background-color: #CCCCCC;
+  background-color: #666699;
   margin: 0px;
   padding: 0px;
 
@@ -59,7 +59,7 @@ strong{
 
 
 section{
-  background-color: #CCCCCC;
+  background-color: #666699;
 
 }
 
@@ -72,7 +72,7 @@ section{
 
 
 .section--1 {
-  background-color: #CCCCCC;
+
   height: 400px;
 
 }
@@ -80,39 +80,36 @@ section{
 
 
 .section--2 {
-  background-color: #CCCCCC;
+
   height:800px;
 }
 
 .section--3 {
-  background-color: #CCCCCC;
+
   height: 200px;
 
 
 }
 
 .section--4 {
-  background-color: #CCCCCC;
+
   height: 200px;
   margin-top: 65%;
 
 }
 
 .section--5 {
-  background-color: #CCCCCC;
+
   height:280px;
 }
 
 .section--6 {
-  background-color: #CCCCCC;
+
   height:300px;
   margin-top: 280px;
 }
 
 
-.section--green {
-  background-color: #2ecc71;
-}
 
 .column {
   text-align: center;
@@ -133,7 +130,7 @@ section{
 
 .title-education {
   text-align: center;
-  background-color: #CCCCCC;
+  background-color: #666699;
 
 
 
