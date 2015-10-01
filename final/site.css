@@ -64,6 +64,13 @@ section{
 }
 
 
+
+/*
+ Classes
+ */
+
+
+
 .nav {
   margin: 0 auto;
   text-align: center;
@@ -154,7 +161,9 @@ section{
 
 }
 
-
+/*
+ IDs
+ */
 
 #section1-title{
   margin:auto;
@@ -177,6 +186,22 @@ section{
 
 }
 
+
+
+
+#architect {
+  display: block;
+  position: fixed;
+  top: 80px;
+  left: 150px;
+}
+
+#ux-designer {
+  display: block;
+  position: fixed;
+  top: 80px;
+  left: 150px;
+}
 
 
 
