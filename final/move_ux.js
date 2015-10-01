@@ -12,8 +12,6 @@ $(document).ready(function(){
 
    var pos_left = "";
   var top_value = "";
-
-  var top_initial = position.top;
   var initial_pos = false;
   var our_timeout = "";
 
@@ -55,9 +53,10 @@ function character_move(){
              "position": "absolute",
              "z-index":"0",
              "left":pos_left,
-             "top":top_value,
            });
-
+           myDiv.animate({
+             top: top_value,
+           });
 
            initial_pos=true;
          }
@@ -88,7 +87,7 @@ function character_move(){
          "margin-top": "35px",
          "z-index":"0",
        });
-       myDiv.stop(true,true).animate({
+       myDiv.animate({
                        top: costume_position.top,
 
        });
@@ -100,7 +99,7 @@ function character_move(){
      //If our scrolling is back to the top of our character, we need to flush our custom css instructions
      //so he takes back his original place.
      else{
-     myDiv.stop(true,true).animate({top:top_initial},400,myDiv.removeAttr( 'style' ));
+     myDiv.removeAttr( 'style' );
        initial_pos=false;
      }
 
