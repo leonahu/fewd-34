@@ -86,7 +86,7 @@ function character_move(){
          "display": "block",
          "position": "absolute",
          "left": pos_left,
-         "margin-top": "35px",
+         "margin-top": "37px",
          "z-index":"0",
        });
        myDiv.stop(true,true).animate({
