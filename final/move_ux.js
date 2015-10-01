@@ -3,14 +3,14 @@ $(document).ready(function(){
 
 
    //Variable declaration
-   var myDiv = $('.architect');
-   var myDiv_end = $('.architect_end');
+   var myDiv = $('.uxer');
+   var myDiv_end = $('.uxer_end');
 
    //The offset is actually the position of an element compared
-   //to the edges of the document itself (meaning the very top of the content and the very left;
-   var position = $('.architect').offset();
+   //to the edges of the document itself (meaning the very top of the content and the very right;
+   var position = $('.uxer').offset();
 
-   var pos_left = "";
+   var pos_right = "";
   var top_value = "";
   var initial_pos = false;
   var our_timeout = "";
@@ -32,12 +32,12 @@ function character_move(){
 
 
 
-     var costume_position =  $('.architect_end').offset();
+     var costume_position =  $('.uxer_end').offset();
 
-     //We add an offset to match the costume. (the characters are a bit to the left)
-     //NB. we declare this variable here since somebody could resize his window, therefore changing the left position of our element.
+     //We add an offset to match the costume. (the characters are a bit to the right)
+     //NB. we declare this variable here since somebody could resize his window, therefore changing the right position of our element.
      top_value = $(window).scrollTop();
-     pos_left = costume_position.left+91+"px";
+     pos_right = costume_position.right-10+"px";
 
 
      //Condition that checks if the scrollTop() value of the window
@@ -52,7 +52,7 @@ function character_move(){
              "display": "block",
              "position": "absolute",
              "z-index":"0",
-             "left":pos_left,
+             "right":pos_right,
            });
            myDiv.animate({
              top: top_value,
@@ -65,7 +65,7 @@ function character_move(){
 
          our_timeout = setTimeout(function(){
          myDiv.animate({
-           left: pos_left,
+           right: pos_right,
            top: top_value,
          });
          }, 200);
@@ -79,11 +79,11 @@ function character_move(){
        //The css position absolute is very usefull, it moves an
        //element compared to its first relative parent. If none are found, it uses the document itself.
        //Since our Character doesn't have a relative parent,
-       //we give it a top value of the costume offset.top and a left value of the regular offset.left of our character.
+       //we give it a top value of the costume offset.top and a  value of the regular offset. of our character.
        myDiv.css({
          "display": "block",
          "position": "absolute",
-         "left": pos_left,
+         "right": pos_right,
          "margin-top": "35px",
          "z-index":"0",
        });

@@ -69,7 +69,7 @@ function character_move(){
            left: pos_left,
            top: top_value,
          });
-         }, 200);
+       }, 150);
 
      }
      //Second condition, we want our character to stay in his clothes when he reaches them!
@@ -77,6 +77,7 @@ function character_move(){
      else if(
        $(window).scrollTop()+current_offset >= costume_position.top
      ){
+       clearTimeout(our_timeout);
        //The css position absolute is very usefull, it moves an
        //element compared to its first relative parent. If none are found, it uses the document itself.
        //Since our Character doesn't have a relative parent,
@@ -100,6 +101,7 @@ function character_move(){
      //If our scrolling is back to the top of our character, we need to flush our custom css instructions
      //so he takes back his original place.
      else{
+     clearTimeout(our_timeout);
      myDiv.stop(true,true).animate({top:top_initial},400,myDiv.removeAttr( 'style' ));
        initial_pos=false;
      }
