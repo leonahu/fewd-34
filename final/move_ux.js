@@ -7,11 +7,13 @@ $(document).ready(function(){
    var myDiv_end = $('.uxer_end');
 
    //The offset is actually the position of an element compared
-   //to the edges of the document itself (meaning the very top of the content and the very right;
+   //to the edges of the document itself (meaning the very top of the content and the very left;
    var position = $('.uxer').offset();
 
-   var pos_right = "";
+   var pos_left = "";
   var top_value = "";
+
+  var top_initial = position.top;
   var initial_pos = false;
   var our_timeout = "";
 
@@ -34,10 +36,10 @@ function character_move(){
 
      var costume_position =  $('.uxer_end').offset();
 
-     //We add an offset to match the costume. (the characters are a bit to the right)
-     //NB. we declare this variable here since somebody could resize his window, therefore changing the right position of our element.
+     //We add an offset to match the costume. (the characters are a bit to the left)
+     //NB. we declare this variable here since somebody could resize his window, therefore changing the left position of our element.
      top_value = $(window).scrollTop();
-     pos_right = costume_position.right-10+"px";
+     pos_left = costume_position.left+0+"px";
 
 
      //Condition that checks if the scrollTop() value of the window
@@ -52,11 +54,10 @@ function character_move(){
              "display": "block",
              "position": "absolute",
              "z-index":"0",
-             "right":pos_right,
+             "left":pos_left,
+             "top":top_value,
            });
-           myDiv.animate({
-             top: top_value,
-           });
+
 
            initial_pos=true;
          }
@@ -65,10 +66,10 @@ function character_move(){
 
          our_timeout = setTimeout(function(){
          myDiv.animate({
-           right: pos_right,
+           left: pos_left,
            top: top_value,
          });
-         }, 200);
+       }, 150);
 
      }
      //Second condition, we want our character to stay in his clothes when he reaches them!
@@ -76,18 +77,19 @@ function character_move(){
      else if(
        $(window).scrollTop()+current_offset >= costume_position.top
      ){
+       clearTimeout(our_timeout);
        //The css position absolute is very usefull, it moves an
        //element compared to its first relative parent. If none are found, it uses the document itself.
        //Since our Character doesn't have a relative parent,
-       //we give it a top value of the costume offset.top and a  value of the regular offset. of our character.
+       //we give it a top value of the costume offset.top and a left value of the regular offset.left of our character.
        myDiv.css({
          "display": "block",
          "position": "absolute",
-         "right": pos_right,
+         "left": pos_left,
          "margin-top": "35px",
          "z-index":"0",
        });
-       myDiv.animate({
+       myDiv.stop(true,true).animate({
                        top: costume_position.top,
 
        });
@@ -99,7 +101,8 @@ function character_move(){
      //If our scrolling is back to the top of our character, we need to flush our custom css instructions
      //so he takes back his original place.
      else{
-     myDiv.removeAttr( 'style' );
+     clearTimeout(our_timeout);
+     myDiv.stop(true,true).animate({top:top_initial},400,myDiv.removeAttr( 'style' ));
        initial_pos=false;
      }
 
