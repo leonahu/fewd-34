@@ -95,6 +95,8 @@ section{
 .section--2 {
 
   height:800px;
+  position: relative;
+  z-index:2;
 }
 
 .section--3 {
