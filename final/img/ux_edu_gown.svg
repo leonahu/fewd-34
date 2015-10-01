@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="71px" height="286px" viewBox="0 0 71 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 115 + Arch_gown Copy 3 + Path 10 Copy 7 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="72.2772277" height="93.685446"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Characters" sketch:type="MSArtboardGroup" transform="translate(-996.000000, -2115.000000)">
+            <g id="Rectangle-115-+-Arch_gown-Copy-3-+-Path-10-Copy-7-Copy" sketch:type="MSLayerGroup" transform="translate(994.000000, 2094.000000)">
+                <g id="Rectangle-115-+-Arch_gown-Copy-3" transform="translate(0.225047, 0.000000)">
+                    <mask id="mask-2" sketch:name="Mask" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                    <g id="Arch_gown-Copy-2" mask="url(#mask-2)">
+                        <g transform="translate(1.445545, 21.619718)">
+                            <g id="Rectangle-52-+-Rectangle-53">
+                                <path d="M23.4604515,1.88891028 C24.0409182,0.845693941 25.4717067,0 26.6702293,0 L139.504616,0 C140.696861,0 141.196581,0.838907207 140.612339,1.88891028 L118.25411,42.0711836 C117.673643,43.1144 116.242855,43.9600939 115.044332,43.9600939 L2.20994524,43.9600939 C1.01770054,43.9600939 0.517980167,43.1211867 1.10222309,42.0711836 L23.4604515,1.88891028 Z" id="Rectangle-52" fill="#3B3445" sketch:type="MSShapeGroup"></path>
+                                <path d="M111.528232,26.1615351 L111.528232,54.0492958 C111.528232,54.0492958 92.8208522,46.3803318 68.0768421,46.3803318 C43.332832,46.3803318 24.6254527,54.0492958 24.6254527,54.0492958 L24.6254527,26.1615351 C24.6254527,20.8671028 44.0793024,16.5751174 68.0768421,16.5751174 C92.0743818,16.5751174 111.528232,20.8671028 111.528232,26.1615351 Z" id="Rectangle-53" fill="#5D526E" sketch:type="MSShapeGroup"></path>
+                            </g>
+                            <g id="Rectangle-54-+-Oval-90" transform="translate(5.782178, 43.239437)">
+                                <rect id="Rectangle-54" fill="#B8E986" sketch:type="MSShapeGroup" x="1.44554455" y="0" width="2.89108911" height="28.8262911"></rect>
+                                <ellipse id="Oval-90" fill="#B8E986" sketch:type="MSShapeGroup" cx="2.89108911" cy="6.48591549" rx="2.89108911" ry="2.88262911"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path d="M28.8503174,179.393425 C23.377148,182.791155 18.7201183,187.871438 15.9009913,195.348355 C3.92775098,227.103904 15.0637597,271.057216 15.0637597,271.057216 L34.1261726,268.705931 L37.9293114,238.587792 C37.9293114,238.587792 36.5372961,266.370128 35.3317345,281.335731 C34.1261729,296.301333 26.9676217,306.793794 26.9676217,306.793794 L73,306.793794 L72.9999988,196.052772 C72.5194628,196.06358 72.0375959,196.069012 71.5544565,196.069012 C55.0685352,196.069012 40.0643969,189.74331 28.8503174,179.393425 Z" id="Path-10-Copy-7" fill="#3B3445" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
