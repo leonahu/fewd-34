@@ -11,9 +11,9 @@ $(document).ready(function(){
    var position = $('.architect').offset();
 
    var pos_left = "";
-  var top_value = "";
-  var initial_pos = false;
-  var our_timeout = "";
+   var top_value = "";
+   var initial_pos = false;
+   var our_timeout = "";
 
 
    $( window ).resize(function() {
@@ -53,10 +53,9 @@ function character_move(){
              "position": "absolute",
              "z-index":"0",
              "left":pos_left,
+             "top":top_value,
            });
-           myDiv.animate({
-             top: top_value,
-           });
+
 
            initial_pos=true;
          }
@@ -68,7 +67,7 @@ function character_move(){
            left: pos_left,
            top: top_value,
          });
-       }, 100);
+         }, 200);
 
      }
      //Second condition, we want our character to stay in his clothes when he reaches them!
@@ -87,7 +86,7 @@ function character_move(){
          "margin-top": "35px",
          "z-index":"0",
        });
-       myDiv.animate({
+       myDiv.stop(true,true).animate({
                        top: costume_position.top,
 
        });
