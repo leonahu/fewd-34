@@ -31,7 +31,7 @@ $(document).ready(function(){
 function character_move(){
      //This is just an arbitrary value to give an higher
      //threshold to the page scroll (the detection will happen faster if the offset is bigger)
-     current_offset=80;
+     current_offset=70;
 
 
 
