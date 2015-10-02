@@ -69,7 +69,7 @@ function character_move(){
            left: pos_left,
            top: top_value,
          });
-       }, 150);
+       }, 120);
 
      }
      //Second condition, we want our character to stay in his clothes when he reaches them!

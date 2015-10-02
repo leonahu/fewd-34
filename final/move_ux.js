@@ -10,7 +10,7 @@ $(document).ready(function(){
    //to the edges of the document itself (meaning the very top of the content and the very left;
    var position = $('.uxer').offset();
 
-   var pos_left = "";
+  var pos_left = "";
   var top_value = "";
 
   var top_initial = position.top;
@@ -21,6 +21,7 @@ $(document).ready(function(){
    $( window ).resize(function() {
      character_move();
    });
+
   //Simple call to the scroll event listener (provided by jQuery)
   //whenever a scroll happens on the window element (everywhere)
   $( window ).scroll(function(){
@@ -29,7 +30,7 @@ $(document).ready(function(){
 
 function character_move(){
      //This is just an arbitrary value to give an higher
-     //threshold to our page scroll (the detection will happen faster if the offset is bigger)
+     //threshold to the page scroll (the detection will happen faster if the offset is bigger)
      current_offset=80;
 
 
@@ -69,7 +70,7 @@ function character_move(){
            left: pos_left,
            top: top_value,
          });
-       }, 150);
+       }, 120);
 
      }
      //Second condition, we want our character to stay in his clothes when he reaches them!
